@@ -1,0 +1,57 @@
+.container {
+  width: 1000px;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  background-color: azure;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+#span-2-clr {
+  width: 10%;
+  background-color: #66ccff;
+}
+
+#span-2-clr:hover {
+  background-color: #80dfff;
+}
+
+#span-2-del {
+  width: 10%;
+  background-color: #ff9933;
+}
+
+#span-2-del:hover {
+  background-color: #ff8000;
+}
+
+.calc-input {
+  width: 20%;
+  height: 50px;
+  background-color: aquamarine;
+  font-size: 40px;
+  font-family: Roboto;
+  text-align: right;
+}
+
+.lastOperationScreen {
+  width: 20%;
+  height: 50px;
+  background-color: aquamarine;
+  font-size: 20px;
+  text-align: right;
+}

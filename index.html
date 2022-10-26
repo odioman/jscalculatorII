@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+        <div class="lastOperationScreen"></div>
+        <div class="calc-input"></div>
+    </div>
+        <div class="row">
+            <button class="button" data-value="7">7</button>
+            <button class="button" data-value="8">8</button>
+            <button class="button" data-value="9">9</button>
+            <button class="button" id="divide" data-value="/">/</button>
+        </div>
+        <div class="row">
+            <button class="button" data-value="4">4</button>
+            <button class="button" data-value="5">5</button>
+            <button class="button" data-value="6">6</button>
+            <button class="button" id="multiply" data-value="*">*</button>
+        </div>
+        <div class="row">
+            <button class="button" data-value="1">1</button>
+            <button class="button" data-value="2">2</button>
+            <button class="button" data-value="3">3</button>
+            <button class="button" id="subtract" data-value="-">-</button>
+        </div>
+        <div class="row">
+            <button class="button" data-value="0">0</button>
+            <button class="button" id="decimal" data-value=".">.</button>
+            <button class="button" id="equals" data-value="=">=</button>
+            <button class="button" id="add" data-value="+">+</button>
+        </div>
+        <div class="row">
+            <button class="button" id="span-2-clr" data-value="clear">CLEAR</button>
+            <button class="button" id="span-2-del" data-value="del">DEL</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
